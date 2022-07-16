@@ -1,45 +1,62 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(mcc.jpg);
+    background: url(75.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
+header{
+    color: white;
+    background-color: rgba(9, 124, 9, 0.65);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
 .container {
-    background: rgba(250, 235, 215, 0.7);
+    background: rgba(127, 236, 203, 0.7);
+    width: 300px;
+    height: 325px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 13px;
+}
+.container1 {
+    background: rgba(127, 236, 203, 0.7);
     width: 300px;
     height: 300px;
     margin: auto;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     border-radius: 13px;
 }
 .login{
     padding-top: 20px;
-    font-size: xx-large;
+    font-size: 38px;
     margin: auto;
     font-family: system-ui;
     font-style: oblique;
-    color: coral;
+    color: rgb(243, 36, 36);
 }
 .uname{
     display: block;
     text-align: center;
     margin: auto;
     padding: revert;
-    border-radius: 4px;
+    border-radius: 5px;
     border: none;
-    height: 20px;
+    height: 28px;
     width: 200px;
+    font-size: 16px;
 }
 button.uname{
     margin-top: 13px;
     background-color: rgb(245, 139, 139);
     border: none;
-    height: 20px;
-    width: 50px;
+    height: 28px;
+    width: 80px;
     margin-bottom: 5px;
 }
 button.uname:hover{
@@ -47,13 +64,14 @@ button.uname:hover{
     cursor: pointer;
 }
 p{
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 3px;
     font: small-caption;
-    font-size: 14px;
+    font-size: 17px;
 }
 .fp{
     text-decoration: none;
+    font-size: 17px;
 }
 .fp:hover{
     text-decoration: underline;
