@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(mcc.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    background: rgba(250, 235, 215, 0.7);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 13px;
+}
+.login{
+    padding-top: 20px;
+    font-size: xx-large;
+    margin: auto;
+    font-family: system-ui;
+    font-style: oblique;
+    color: coral;
+}
+.uname{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: revert;
+    border-radius: 4px;
+    border: none;
+    height: 20px;
+    width: 200px;
+}
+button.uname{
+    margin-top: 13px;
+    background-color: rgb(245, 139, 139);
+    border: none;
+    height: 20px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+button.uname:hover{
+    background-color: rgb(235, 114, 134);
+    cursor: pointer;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font: small-caption;
+    font-size: 14px;
+}
+.fp{
+    text-decoration: none;
+}
+.fp:hover{
+    text-decoration: underline;
+}
